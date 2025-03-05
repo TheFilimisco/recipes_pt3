@@ -11,6 +11,3 @@ def save_db(data_path, field, data):
     data = {field: list(data.values())}
     with open(data_path, mode="w", encoding="utf-8") as f:
         json.dump(data, f, indent=4)
-
-
-
