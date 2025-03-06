@@ -1,0 +1,172 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "recipes",
+    "collectionId": "8a0624b5-dff6-4cfe-98f3-92fdf3ec84e4",
+    "dateExported": "2025-03-06T08:59:29.131Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "e8bf0044-dd55-4339-8792-e93b170540be",
+            "colId": "8a0624b5-dff6-4cfe-98f3-92fdf3ec84e4",
+            "containerId": "",
+            "name": "home",
+            "url": "http://127.0.0.1:8000/",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2025-03-03T21:28:09.549Z",
+            "modified": "2025-03-03T21:28:46.293Z",
+            "headers": []
+        },
+        {
+            "_id": "cc37389d-6a41-4ec6-9578-5021c8650447",
+            "colId": "8a0624b5-dff6-4cfe-98f3-92fdf3ec84e4",
+            "containerId": "",
+            "name": "recipes",
+            "url": "http://127.0.0.1:8000/recipes",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2025-03-03T21:30:24.755Z",
+            "modified": "2025-03-06T08:41:24.995Z",
+            "headers": []
+        },
+        {
+            "_id": "d26b7983-a226-438f-9157-65e44dda98e3",
+            "colId": "8a0624b5-dff6-4cfe-98f3-92fdf3ec84e4",
+            "containerId": "",
+            "name": "read_recipe",
+            "url": "http://127.0.0.1:8000/recipes/7",
+            "method": "GET",
+            "sortNum": 35000,
+            "created": "2025-03-04T08:39:41.952Z",
+            "modified": "2025-03-05T18:35:47.040Z",
+            "headers": []
+        },
+        {
+            "_id": "fb288b47-77aa-47a9-ba66-591d1e570c40",
+            "colId": "8a0624b5-dff6-4cfe-98f3-92fdf3ec84e4",
+            "containerId": "",
+            "name": "create_recipe",
+            "url": "http://127.0.0.1:8000/recipes/",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2025-03-04T08:01:54.729Z",
+            "modified": "2025-03-06T08:52:52.791Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{ \n\"name\": \"Classic Margherita Pizza\", \n\"ingredients\": [ \n\"Pizza dough\", \n\"Tomato sauce\", \n\"Fresh mozzarella cheese\", \n\"Fresh basil leaves\", \n\"Olive oil\", \n\"Salt and pepper to taste\" \n], \n\"instructions\": [ \n\"Preheat the oven to 475°F (245°C).\", \n\"Roll out the pizza dough and spread tomato sauce evenly.\", \n\"Top with slices of fresh mozzarella and fresh basil leaves.\", \n\"Drizzle with olive oil and season with salt and pepper.\", \n\"Bake in the preheated oven for 12-15 minutes or until the crust is golden brown.\", \n\"Slice and serve hot.\" \n], \n\"prepTimeMinutes\": 20, \n\"cookTimeMinutes\": 15, \n\"servings\": 4, \n\"difficulty\": \"Easy\", \n\"cuisine\": \"Italian\", \n\"caloriesPerServing\": 300, \n\"tags\": [\"Pizza\", \"Italian\"], \n\"userId\": 166, \n\"image\": \"https://cdn.dummyjson.com/recipe-images/1.webp\", \n\"rating\": 4.6, \n\"reviewCount\": 98, \n\"mealType\": [\"Dinner\"] \n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "321c5ef4-8f4d-48ed-8abf-8e59755574e6",
+            "colId": "8a0624b5-dff6-4cfe-98f3-92fdf3ec84e4",
+            "containerId": "",
+            "name": "update_recipe",
+            "url": "http://127.0.0.1:8000/recipes/2",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2025-03-04T10:18:11.855Z",
+            "modified": "2025-03-06T08:52:57.481Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{ \n\"name\": \"Classic Margherita Pizza\", \n\"ingredients\": [ \n\"Pizza dough\", \n\"Tomato sauce\", \n\"Fresh mozzarella cheese\", \n\"Fresh basil leaves\", \n\"Olive oil\", \n\"Salt and pepper to taste\" \n], \n\"instructions\": [ \n\"Preheat the oven to 475°F (245°C).\", \n\"Roll out the pizza dough and spread tomato sauce evenly.\", \n\"Top with slices of fresh mozzarella and fresh basil leaves.\", \n\"Drizzle with olive oil and season with salt and pepper.\", \n\"Bake in the preheated oven for 12-15 minutes or until the crust is golden brown.\", \n\"Slice and serve hot.\" \n], \n\"prepTimeMinutes\": 20, \n\"cookTimeMinutes\": 15, \n\"servings\": 4, \n\"difficulty\": \"Easy\", \n\"cuisine\": \"Italian\", \n\"caloriesPerServing\": 300, \n\"tags\": [\"Pizza\", \"Italian\"], \n\"userId\": 166, \n\"image\": \"https://cdn.dummyjson.com/recipe-images/1.webp\", \n\"rating\": 4.6, \n\"reviewCount\": 98, \n\"mealType\": [\"Dinner\"] \n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "be3c8d84-5fdd-4cb3-80ed-f56ef2f05cca",
+            "colId": "8a0624b5-dff6-4cfe-98f3-92fdf3ec84e4",
+            "containerId": "",
+            "name": "delete_recipe",
+            "url": "http://127.0.0.1:8000/recipes/1",
+            "method": "DELETE",
+            "sortNum": 60000,
+            "created": "2025-03-04T11:03:28.252Z",
+            "modified": "2025-03-05T22:05:25.024Z",
+            "headers": []
+        },
+        {
+            "_id": "ecb88550-3f32-482b-9b98-0e5bf87255a2",
+            "colId": "8a0624b5-dff6-4cfe-98f3-92fdf3ec84e4",
+            "containerId": "",
+            "name": "get_recipes_by_cuisine",
+            "url": "http://127.0.0.1:8000/recipes/cuisine/American",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2025-03-05T20:44:45.478Z",
+            "modified": "2025-03-05T20:57:09.917Z",
+            "headers": []
+        },
+        {
+            "_id": "bac678b8-aa09-41fb-ad22-038e6d1cd786",
+            "colId": "8a0624b5-dff6-4cfe-98f3-92fdf3ec84e4",
+            "containerId": "",
+            "name": "get_recipes_by_difficult",
+            "url": "http://127.0.0.1:8000/recipes/difficulty/Medium",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2025-03-05T21:10:32.849Z",
+            "modified": "2025-03-05T21:10:58.957Z",
+            "headers": []
+        },
+        {
+            "_id": "749056d8-434e-4751-a05b-c3baf11e26d8",
+            "colId": "8a0624b5-dff6-4cfe-98f3-92fdf3ec84e4",
+            "containerId": "",
+            "name": "get_recipes_by_ingredient",
+            "url": "http://127.0.0.1:8000/recipes/ingredient/olive",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2025-03-05T21:20:05.477Z",
+            "modified": "2025-03-05T21:33:07.265Z",
+            "headers": []
+        },
+        {
+            "_id": "4372b099-58ef-48bb-b93f-71dda37c01cc",
+            "colId": "8a0624b5-dff6-4cfe-98f3-92fdf3ec84e4",
+            "containerId": "",
+            "name": "get_recipes_by_temps",
+            "url": "http://127.0.0.1:8000/recipes/prep_time_minutes/30",
+            "method": "GET",
+            "sortNum": 100000,
+            "created": "2025-03-05T21:38:24.814Z",
+            "modified": "2025-03-06T08:53:39.600Z",
+            "headers": []
+        },
+        {
+            "_id": "0a6a8361-23bd-49e1-9b47-c4e0480ee97b",
+            "colId": "8a0624b5-dff6-4cfe-98f3-92fdf3ec84e4",
+            "containerId": "",
+            "name": "get_recipes_by_meal_type",
+            "url": "http://127.0.0.1:8000/recipes/meal_type/Breakfast",
+            "method": "GET",
+            "sortNum": 110000,
+            "created": "2025-03-05T21:49:12.812Z",
+            "modified": "2025-03-05T21:49:49.648Z",
+            "headers": []
+        },
+        {
+            "_id": "c95a3ded-d065-462a-a765-636d4354c61d",
+            "colId": "8a0624b5-dff6-4cfe-98f3-92fdf3ec84e4",
+            "containerId": "",
+            "name": "get_recipes_by_calories_serving",
+            "url": "http://127.0.0.1:8000/recipes/calories_by_Serving/200?sort=True",
+            "method": "GET",
+            "sortNum": 120000,
+            "created": "2025-03-05T21:56:47.656Z",
+            "modified": "2025-03-06T08:54:50.022Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "sort",
+                    "value": "True",
+                    "isPath": false
+                }
+            ]
+        }
+    ],
+    "ref": "CI0QFdf7HPl82kJkTUyvseGnB9ngvBLUA4vtWeEgJ01GQTJ-ZuRvBWdQskck1QvDXThNQCOhadOn71JEOc6voQ"
+}
